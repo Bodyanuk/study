@@ -11,5 +11,9 @@ class IndexController extends Controller {
 	public function actionIndex() {
 		$this->getTemplate('\pages\index');
 	}
+
+	public function actionEnd() {
+		$this->renderTemplatePart('\page\footer');
+	}
 }
 ?>
