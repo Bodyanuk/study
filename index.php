@@ -4,9 +4,11 @@ $index = \includes\IndexController;
 
 $index->actionIndex();
 
+$index->getHeader();
+
 $index->setTemplate('/pages/foo'); // This is error place
 
-$index->actionEnd();
+$index->goodBye();
 
-$index->noGoodBye(); // master branch
+$index->endOfApplication();
 ?>
