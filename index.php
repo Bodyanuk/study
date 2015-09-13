@@ -1,13 +1,6 @@
 <?php 
-class IndexController {
-	private $layout;
 
-	public function _construct($layout) {
-		$this->layout = $layout;
-	}
+$index = \includes\IndexController;
 
-	public actionIndex() {
-		$this->
-	}
-}
+$index->actionIndex();
 ?>
